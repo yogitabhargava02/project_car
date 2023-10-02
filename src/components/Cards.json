@@ -2,7 +2,7 @@
     "cars": [
       {
         "car_id": 1,
-        "car_image_url": "https://example.com/car1.jpg",
+        "car_image_url": "https://images.pexels.com/photos/18375386/pexels-photo-18375386/free-photo-of-toyota-and-ram-pichops-in-seaside.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "car_title": "Toyota Camry",
         "year_manufactured": 2022,
         "seating_capacity": 5,
@@ -13,7 +13,7 @@
       },
       {
         "car_id": 2,
-        "car_image_url": "https://example.com/car2.jpg",
+        "car_image_url": "https://images.pexels.com/photos/13118992/pexels-photo-13118992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "car_title": "Honda Civic",
         "year_manufactured": 2021,
         "seating_capacity": 5,
@@ -24,7 +24,7 @@
       },
       {
         "car_id": 3,
-        "car_image_url": "https://example.com/car3.jpg",
+        "car_image_url": "https://images.pexels.com/photos/2449452/pexels-photo-2449452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "car_title": "Tesla Model 3",
         "year_manufactured": 2023,
         "seating_capacity": 5,
@@ -35,7 +35,7 @@
       },
       {
         "car_id": 4,
-        "car_image_url": "https://example.com/car4.jpg",
+        "car_image_url": "https://images.pexels.com/photos/18395029/pexels-photo-18395029/free-photo-of-retro-ford-car-on-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "car_title": "Ford F-150",
         "year_manufactured": 2022,
         "seating_capacity": 6,
@@ -46,7 +46,7 @@
       },
       {
         "car_id": 5,
-        "car_image_url": "https://example.com/car5.jpg",
+        "car_image_url": "https://images.pexels.com/photos/12532745/pexels-photo-12532745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "car_title": "Nissan Altima",
         "year_manufactured": 2020,
         "seating_capacity": 5,
@@ -57,7 +57,7 @@
       },
       {
         "car_id": 6,
-        "car_image_url": "https://example.com/car6.jpg",
+        "car_image_url": "https://images.pexels.com/photos/575386/pexels-photo-575386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "car_title": "Chevrolet Tahoe",
         "year_manufactured": 2023,
         "seating_capacity": 7,
@@ -68,7 +68,7 @@
       },
       {
         "car_id": 7,
-        "car_image_url": "https://example.com/car7.jpg",
+        "car_image_url": "https://images.pexels.com/photos/17534546/pexels-photo-17534546/free-photo-of-black-hyundai-kona.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "car_title": "Hyundai Kona",
         "year_manufactured": 2022,
         "seating_capacity": 5,
@@ -79,7 +79,7 @@
       },
       {
         "car_id": 8,
-        "car_image_url": "https://example.com/car8.jpg",
+        "car_image_url": "https://images.pexels.com/photos/16444736/pexels-photo-16444736/free-photo-of-white-volkswagen-golf.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "car_title": "Volkswagen Golf",
         "year_manufactured": 2021,
         "seating_capacity": 5,
@@ -90,7 +90,7 @@
       },
       {
         "car_id": 9,
-        "car_image_url": "https://example.com/car9.jpg",
+        "car_image_url": "https://images.pexels.com/photos/2127037/pexels-photo-2127037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "car_title": "BMW X5",
         "year_manufactured": 2023,
         "seating_capacity": 5,
