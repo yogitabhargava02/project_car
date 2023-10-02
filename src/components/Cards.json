@@ -1,0 +1,104 @@
+{
+    "cars": [
+      {
+        "car_id": 1,
+        "car_image_url": "https://example.com/car1.jpg",
+        "car_title": "Toyota Camry",
+        "year_manufactured": 2022,
+        "seating_capacity": 5,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "30 mpg",
+        "price_per_month": 450
+      },
+      {
+        "car_id": 2,
+        "car_image_url": "https://example.com/car2.jpg",
+        "car_title": "Honda Civic",
+        "year_manufactured": 2021,
+        "seating_capacity": 5,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "35 mpg",
+        "price_per_month": 400
+      },
+      {
+        "car_id": 3,
+        "car_image_url": "https://example.com/car3.jpg",
+        "car_title": "Tesla Model 3",
+        "year_manufactured": 2023,
+        "seating_capacity": 5,
+        "fuel_type": "Electric",
+        "transmission_type": "Automatic",
+        "mileage": "250 miles per charge",
+        "price_per_month": 600
+      },
+      {
+        "car_id": 4,
+        "car_image_url": "https://example.com/car4.jpg",
+        "car_title": "Ford F-150",
+        "year_manufactured": 2022,
+        "seating_capacity": 6,
+        "fuel_type": "Hybrid",
+        "transmission_type": "Automatic",
+        "mileage": "25 mpg",
+        "price_per_month": 550
+      },
+      {
+        "car_id": 5,
+        "car_image_url": "https://example.com/car5.jpg",
+        "car_title": "Nissan Altima",
+        "year_manufactured": 2020,
+        "seating_capacity": 5,
+        "fuel_type": "Diesel",
+        "transmission_type": "Automatic",
+        "mileage": "40 mpg",
+        "price_per_month": 420
+      },
+      {
+        "car_id": 6,
+        "car_image_url": "https://example.com/car6.jpg",
+        "car_title": "Chevrolet Tahoe",
+        "year_manufactured": 2023,
+        "seating_capacity": 7,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "22 mpg",
+        "price_per_month": 700
+      },
+      {
+        "car_id": 7,
+        "car_image_url": "https://example.com/car7.jpg",
+        "car_title": "Hyundai Kona",
+        "year_manufactured": 2022,
+        "seating_capacity": 5,
+        "fuel_type": "Hybrid",
+        "transmission_type": "Automatic",
+        "mileage": "50 mpg",
+        "price_per_month": 480
+      },
+      {
+        "car_id": 8,
+        "car_image_url": "https://example.com/car8.jpg",
+        "car_title": "Volkswagen Golf",
+        "year_manufactured": 2021,
+        "seating_capacity": 5,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "32 mpg",
+        "price_per_month": 420
+      },
+      {
+        "car_id": 9,
+        "car_image_url": "https://example.com/car9.jpg",
+        "car_title": "BMW X5",
+        "year_manufactured": 2023,
+        "seating_capacity": 5,
+        "fuel_type": "Diesel",
+        "transmission_type": "Automatic",
+        "mileage": "28 mpg",
+        "price_per_month": 650
+      }
+    ]
+  }
+  
