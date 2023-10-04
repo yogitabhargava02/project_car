@@ -35,6 +35,39 @@
       },
       {
         "car_id": 4,
+        "car_image_url": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Sedan",
+        "year_manufactured": 2022,
+        "seating_capacity": 5,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "30 mpg",
+        "price_per_month": 450
+      },
+      {
+        "car_id": 5,
+        "car_image_url": "https://images.pexels.com/photos/13194257/pexels-photo-13194257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "SUV (Sport Utility Vehicle)",
+        "year_manufactured": 2021,
+        "seating_capacity": 5,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "35 mpg",
+        "price_per_month": 400
+      },
+      {
+        "car_id": 6,
+        "car_image_url": "https://images.pexels.com/photos/6894420/pexels-photo-6894420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Hatchback",
+        "year_manufactured": 2023,
+        "seating_capacity": 5,
+        "fuel_type": "Electric",
+        "transmission_type": "Automatic",
+        "mileage": "250 miles per charge",
+        "price_per_month": 600
+      },
+      {
+        "car_id": 7,
         "car_image_url": "https://images.pexels.com/photos/18395029/pexels-photo-18395029/free-photo-of-retro-ford-car-on-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "car_title": "Ford F-150",
         "year_manufactured": 2022,
@@ -45,7 +78,7 @@
         "price_per_month": 550
       },
       {
-        "car_id": 5,
+        "car_id": 8,
         "car_image_url": "https://images.pexels.com/photos/12532745/pexels-photo-12532745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "car_title": "Nissan Altima",
         "year_manufactured": 2020,
@@ -56,7 +89,199 @@
         "price_per_month": 420
       },
       {
-        "car_id": 6,
+        "car_id": 9,
+        "car_image_url": "https://images.pexels.com/photos/248687/pexels-photo-248687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Chevrolet Tahoe",
+        "year_manufactured": 2023,
+        "seating_capacity": 7,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "22 mpg",
+        "price_per_month": 700
+      },
+      
+    
+      {
+        "car_id": 10,
+        "car_image_url": "https://images.pexels.com/photos/2365572/pexels-photo-2365572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Coupe",
+        "year_manufactured": 2022,
+        "seating_capacity": 6,
+        "fuel_type": "Hybrid",
+        "transmission_type": "Automatic",
+        "mileage": "25 mpg",
+        "price_per_month": 550
+      },
+      {
+        "car_id": 11,
+        "car_image_url": "https://images.pexels.com/photos/3610342/pexels-photo-3610342.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "car_title": "Audi",
+        "year_manufactured": 2020,
+        "seating_capacity": 5,
+        "fuel_type": "Diesel",
+        "transmission_type": "Automatic",
+        "mileage": "40 mpg",
+        "price_per_month": 420
+      },
+      {
+        "car_id": 12,
+        "car_image_url": "https://images.pexels.com/photos/18362930/pexels-photo-18362930/free-photo-of-classic-mercedes-sedan-parked-on-the-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Mercedes-Benze",
+        "year_manufactured": 2023,
+        "seating_capacity": 7,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "22 mpg",
+        "price_per_month": 700
+      },
+      {
+        "car_id": 13,
+        "car_image_url": "https://images.pexels.com/photos/1616262/pexels-photo-1616262.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Bianca",
+        "year_manufactured": 2021,
+        "seating_capacity": 5,
+        "fuel_type": "Hybrid",
+        "transmission_type": "Automatic",
+        "mileage": "35 mpg",
+        "price_per_month": 480
+      },
+      {
+        "car_id": 14,
+        "car_image_url": "https://images.pexels.com/photos/12532745/pexels-photo-12532745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Honda Civic",
+        "year_manufactured": 2022,
+        "seating_capacity": 5,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "30 mpg",
+        "price_per_month": 400
+      },
+      {
+        "car_id": 15,
+        "car_image_url": "https://images.pexels.com/photos/575386/pexels-photo-575386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Jeep Wrangler",
+        "year_manufactured": 2021,
+        "seating_capacity": 4,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "18 mpg",
+        "price_per_month": 650
+      },
+      {
+        "car_id": 16,
+        "car_image_url": "https://images.pexels.com/photos/18375386/pexels-photo-18375386/free-photo-of-toyota-and-ram-pichops-in-seaside.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Toyota Camry",
+        "year_manufactured": 2022,
+        "seating_capacity": 5,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "30 mpg",
+        "price_per_month": 450
+      },
+      {
+        "car_id": 17,
+        "car_image_url": "https://images.pexels.com/photos/13118992/pexels-photo-13118992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Honda Civic",
+        "year_manufactured": 2021,
+        "seating_capacity": 5,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "35 mpg",
+        "price_per_month": 400
+      },
+      {
+        "car_id": 18,
+        "car_image_url": "https://images.pexels.com/photos/2449452/pexels-photo-2449452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Tesla Model 3",
+        "year_manufactured": 2023,
+        "seating_capacity": 5,
+        "fuel_type": "Electric",
+        "transmission_type": "Automatic",
+        "mileage": "250 miles per charge",
+        "price_per_month": 600
+      },
+
+      {
+        "car_id": 19,
+        "car_image_url": "https://images.pexels.com/photos/18395029/pexels-photo-18395029/free-photo-of-retro-ford-car-on-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Ford F-150",
+        "year_manufactured": 2022,
+        "seating_capacity": 6,
+        "fuel_type": "Hybrid",
+        "transmission_type": "Automatic",
+        "mileage": "25 mpg",
+        "price_per_month": 550
+      },
+      {
+        "car_id": 20,
+        "car_image_url": "https://images.pexels.com/photos/12532745/pexels-photo-12532745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Nissan Altima",
+        "year_manufactured": 2020,
+        "seating_capacity": 5,
+        "fuel_type": "Diesel",
+        "transmission_type": "Automatic",
+        "mileage": "40 mpg",
+        "price_per_month": 420
+      },
+      {
+        "car_id": 21,
+        "car_image_url": "https://images.pexels.com/photos/575386/pexels-photo-575386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Chevrolet Tahoe",
+        "year_manufactured": 2023,
+        "seating_capacity": 7,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "22 mpg",
+        "price_per_month": 700
+      },
+
+
+      {
+        "car_id": 22,
+        "car_image_url": "https://images.pexels.com/photos/2969200/pexels-photo-2969200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Blue Sedan",
+        "year_manufactured": 2022,
+        "seating_capacity": 5,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "30 mpg",
+        "price_per_month": 450
+      },
+      {
+        "car_id": 23,
+        "car_image_url": "https://images.pexels.com/photos/2681035/pexels-photo-2681035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Red Subaru",
+        "year_manufactured": 2021,
+        "seating_capacity": 5,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "35 mpg",
+        "price_per_month": 400
+      },
+      {
+        "car_id": 24,
+        "car_image_url": "https://images.pexels.com/photos/2449452/pexels-photo-2449452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Tesla Model 3",
+        "year_manufactured": 2023,
+        "seating_capacity": 5,
+        "fuel_type": "Electric",
+        "transmission_type": "Automatic",
+        "mileage": "250 miles per charge",
+        "price_per_month": 600
+      },
+      {
+        "car_id": 25,
+        "car_image_url": "https://images.pexels.com/photos/12532745/pexels-photo-12532745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Nissan Altima",
+        "year_manufactured": 2020,
+        "seating_capacity": 5,
+        "fuel_type": "Diesel",
+        "transmission_type": "Automatic",
+        "mileage": "40 mpg",
+        "price_per_month": 420
+      },
+      {
+        "car_id": 26,
         "car_image_url": "https://images.pexels.com/photos/575386/pexels-photo-575386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "car_title": "Chevrolet Tahoe",
         "year_manufactured": 2023,
@@ -67,38 +292,51 @@
         "price_per_month": 700
       },
       {
-        "car_id": 7,
-        "car_image_url": "https://images.pexels.com/photos/17534546/pexels-photo-17534546/free-photo-of-black-hyundai-kona.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "car_title": "Hyundai Kona",
-        "year_manufactured": 2022,
+        "car_id": 27,
+        "car_image_url": "https://images.pexels.com/photos/18395029/pexels-photo-18395029/free-photo-of-retro-ford-car-on-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Toyota Camry",
+        "year_manufactured": 2021,
         "seating_capacity": 5,
         "fuel_type": "Hybrid",
         "transmission_type": "Automatic",
-        "mileage": "50 mpg",
+        "mileage": "35 mpg",
         "price_per_month": 480
       },
       {
-        "car_id": 8,
-        "car_image_url": "https://images.pexels.com/photos/16444736/pexels-photo-16444736/free-photo-of-white-volkswagen-golf.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "car_title": "Volkswagen Golf",
-        "year_manufactured": 2021,
-        "seating_capacity": 5,
-        "fuel_type": "Gasoline",
-        "transmission_type": "Automatic",
-        "mileage": "32 mpg",
-        "price_per_month": 420
-      },
-      {
-        "car_id": 9,
-        "car_image_url": "https://images.pexels.com/photos/2127037/pexels-photo-2127037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "car_title": "BMW X5",
-        "year_manufactured": 2023,
+        "car_id": 28,
+        "car_image_url": "https://images.pexels.com/photos/12532745/pexels-photo-12532745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Nissan Altima",
+        "year_manufactured": 2020,
         "seating_capacity": 5,
         "fuel_type": "Diesel",
         "transmission_type": "Automatic",
-        "mileage": "28 mpg",
-        "price_per_month": 650
+        "mileage": "40 mpg",
+        "price_per_month": 420
+      },
+      {
+        "car_id": 29,
+        "car_image_url": "https://images.pexels.com/photos/575386/pexels-photo-575386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Chevrolet Tahoe",
+        "year_manufactured": 2023,
+        "seating_capacity": 7,
+        "fuel_type": "Gasoline",
+        "transmission_type": "Automatic",
+        "mileage": "22 mpg",
+        "price_per_month": 700
+      },
+      {
+        "car_id": 30,
+        "car_image_url": "https://images.pexels.com/photos/18395029/pexels-photo-18395029/free-photo-of-retro-ford-car-on-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Toyota Camry",
+        "year_manufactured": 2021,
+        "seating_capacity": 5,
+        "fuel_type": "Hybrid",
+        "transmission_type": "Automatic",
+        "mileage": "35 mpg",
+        "price_per_month": 480
       }
+      
+   
     ]
   }
   

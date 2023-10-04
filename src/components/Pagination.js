@@ -1,56 +1,56 @@
-import React from "react";
-import { Button, IconButton } from "@material-tailwind/react";
-import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/outline";
- 
-const Pagination=() =>{
-  const [active, setActive] = React.useState(1);
- 
-  const getItemProps = (index) =>
-    ({
-      variant: active === index ? "filled" : "text",
-      color: "gray",
-      onClick: () => setActive(index)
-    });
- 
-  const next = () => {
-    if (active === 5) return;
- 
-    setActive(active + 1);
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
+const Pagination = ({ currentPage, onPageChange }) => {
+  const totalPages = 10; // Hardcoded total pages
+  const [activePage, setActivePage] = useState(currentPage);
+
+  const handlePageChange = (page) => {
+    if (page >= 1 && page <= totalPages) {
+      setActivePage(page);
+      onPageChange(page);
+    }
   };
- 
-  const prev = () => {
-    if (active === 1) return;
- 
-    setActive(active - 1);
+
+  const renderPageNumbers = () => {
+    const pageNumbers = [];
+    for (let i = 1; i <= totalPages; i++) {
+      pageNumbers.push(
+        <Link
+          to={`/page/${i}`} // Update the URL to include page number
+          key={i}
+          className={`${activePage === i
+            ? "bg-blue-500 text-white"
+            : "text-blue-500 hover:bg-blue-200"
+          } border rounded-full h-8 w-8 flex items-center justify-center`}
+          onClick={() => handlePageChange(i)}
+        >
+          {i}
+        </Link>
+      );
+    }
+    return pageNumbers;
   };
- 
+
   return (
-    <div className="flex items-center gap-4">
-      <Button
-        variant="text"
-        className="flex items-center gap-2"
-        onClick={prev}
-        disabled={active === 1}
+    <div className="flex items-center justify-center space-x-2 p-5">
+      <button
+        className="bg-blue-500 text-white border rounded-full h-8 w-8 flex items-center justify-center"
+        onClick={() => handlePageChange(activePage - 1)}
+        disabled={activePage === 1}
       >
-        <ArrowLeftIcon strokeWidth={2} className="h-4 w-4" /> Previous
-      </Button>
-      <div className="flex items-center gap-2">
-        <IconButton {...getItemProps(1)}>1</IconButton>
-        <IconButton {...getItemProps(2)}>2</IconButton>
-        <IconButton {...getItemProps(3)}>3</IconButton>
-        <IconButton {...getItemProps(4)}>4</IconButton>
-        <IconButton {...getItemProps(5)}>5</IconButton>
-      </div>
-      <Button
-        variant="text"
-        className="flex items-center gap-2 bg-b"
-        onClick={next}
-        disabled={active === 5}
+        {"<"}
+      </button>
+      {renderPageNumbers()}
+      <button
+        className="bg-blue-500 text-white border rounded-full h-8 w-8 flex items-center justify-center"
+        onClick={() => handlePageChange(activePage + 1)}
+        disabled={activePage === totalPages}
       >
-        Next
-        <ArrowRightIcon strokeWidth={2} className="h-4 w-4" />
-      </Button>
+        {">"}
+      </button>
     </div>
   );
-}
+};
+
 export default Pagination;
