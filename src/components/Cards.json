@@ -282,8 +282,8 @@
       },
       {
         "car_id": 26,
-        "car_image_url": "https://images.pexels.com/photos/575386/pexels-photo-575386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "car_title": "Chevrolet Tahoe",
+        "car_image_url": "https://images.pexels.com/photos/16033917/pexels-photo-16033917/free-photo-of-black-4x4-ford-driving-off-road.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Off-Road Vehicle",
         "year_manufactured": 2023,
         "seating_capacity": 7,
         "fuel_type": "Gasoline",
@@ -304,8 +304,8 @@
       },
       {
         "car_id": 28,
-        "car_image_url": "https://images.pexels.com/photos/12532745/pexels-photo-12532745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "car_title": "Nissan Altima",
+        "car_image_url": "https://images.pexels.com/photos/1654504/pexels-photo-1654504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Station Wagon",
         "year_manufactured": 2020,
         "seating_capacity": 5,
         "fuel_type": "Diesel",
@@ -315,8 +315,8 @@
       },
       {
         "car_id": 29,
-        "car_image_url": "https://images.pexels.com/photos/575386/pexels-photo-575386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "car_title": "Chevrolet Tahoe",
+        "car_image_url": "https://images.pexels.com/photos/18395195/pexels-photo-18395195/free-photo-of-mercury-montclair-car-parked-on-roadside.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Midsize Car",
         "year_manufactured": 2023,
         "seating_capacity": 7,
         "fuel_type": "Gasoline",
@@ -326,8 +326,8 @@
       },
       {
         "car_id": 30,
-        "car_image_url": "https://images.pexels.com/photos/18395029/pexels-photo-18395029/free-photo-of-retro-ford-car-on-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "car_title": "Toyota Camry",
+        "car_image_url": "https://images.pexels.com/photos/8065247/pexels-photo-8065247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "car_title": "Full-Size Car",
         "year_manufactured": 2021,
         "seating_capacity": 5,
         "fuel_type": "Hybrid",

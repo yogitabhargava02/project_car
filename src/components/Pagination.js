@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Pagination = ({ currentPage, onPageChange }) => {
-  const totalPages = 10; // Hardcoded total pages
+  const totalPages = 10;
   const [activePage, setActivePage] = useState(currentPage);
 
   const handlePageChange = (page) => {
@@ -17,7 +17,7 @@ const Pagination = ({ currentPage, onPageChange }) => {
     for (let i = 1; i <= totalPages; i++) {
       pageNumbers.push(
         <Link
-          to={`/page/${i}`} // Update the URL to include page number
+          to={`/page/${i}`} 
           key={i}
           className={`${activePage === i
             ? "bg-blue-500 text-white"

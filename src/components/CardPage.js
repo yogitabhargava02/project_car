@@ -12,7 +12,6 @@ const CardPage = ({ currentPage, itemsPerPage, cars }) => {
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
 
-  // Slice the cars array to display only the cards for the current page
   const carsToDisplay = cars.slice(startIndex, endIndex);
 
   return (

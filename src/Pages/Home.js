@@ -11,14 +11,13 @@ const Home = () => {
   const { page } = useParams();
   const initialPage = page ? parseInt(page, 10) : 1;
   const [currentPage, setCurrentPage] = useState(initialPage);
-  const itemsPerPage = 6; // Display 6 cards per page
-  const totalItems = cardData.cars.length; // Total number of items
+  const itemsPerPage = 6; 
+  const totalItems = cardData.cars.length;
   
 
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredCars, setFilteredCars] = useState([]);
 
-  // Update filteredCars whenever the searchQuery or cardData changes
   useEffect(() => {
     const filtered = cardData.cars.filter((car) =>
       car.car_title.toLowerCase().includes(searchQuery.toLowerCase())
@@ -69,14 +68,14 @@ const Home = () => {
         <CardPage
           currentPage={currentPage}
           itemsPerPage={itemsPerPage}
-          cars={filteredCars} // Pass filteredCars to CardPage component
+          cars={filteredCars} 
         />
 
         <div className='grid grid-flow-col justify-stretch ...'></div>
       </div>
       <Pagination
         postsPerPage={itemsPerPage}
-        totalPosts={filteredCars.length} // Update totalPosts with the filtered data length
+        totalPosts={filteredCars.length}
         currentPage={currentPage}
         onPageChange={handlePageChange}
       />
