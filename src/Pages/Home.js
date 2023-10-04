@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import 'tailwindcss/tailwind.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faSearch } from '@fortawesome/free-solid-svg-icons';
-import CardPage from './CardPage'; // Import your CardPage component
-import Pagination from './Pagination'; // Import your Pagination component
-import cardData from './Cards.json';
+import CardPage from '../components/CardPage'; 
+import Pagination from "../components/Pagination";
+import cardData from '../components/Cards.json';
 import { useParams } from 'react-router-dom';
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
   const [currentPage, setCurrentPage] = useState(initialPage);
   const itemsPerPage = 6; // Display 6 cards per page
   const totalItems = cardData.cars.length; // Total number of items
-  const totalPages = Math.ceil(totalItems / itemsPerPage); // Calculate total pages
+  
 
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredCars, setFilteredCars] = useState([]);
